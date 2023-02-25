@@ -1,18 +1,12 @@
-const user1 = {
-  name: "mariam",
-  lastname: "kochadze",
+const Givi = {
+  age: 14,
+  color: "red",
+  hobby: "dance",
 };
+Givi.living = "tbilisi";
+Givi.color = "blue";
 
-const user2 = {
-  name: "tornike",
-  lastname: "machitidze",
-};
-
-const user3 = {
-  name: "jay",
-  lastname: "kay",
-};
-
-const users = [user1, user2, user3];
-
-console.log(users[1]);
+const users = ["Mariami", "Tornike", "Gocha"];
+console.log(users[2]);
+users[3] = "Koba";
+console.log(users);
